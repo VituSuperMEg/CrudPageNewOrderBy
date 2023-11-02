@@ -36,5 +36,30 @@
   Passamos no <strong>getDataParams</strong> o seguinte params page, descricao, label, order, ...paramsSearch.
 </p>
 <strong>
-
+  a descricao é o search , as tags do component!
 </strong>
+<img src="./img/grid-ordery-by7.jpg">
+<p>
+  Já linha 206 que inicia a chamanda do component grid passamos o orderBy como
+  props, e colocamos a função <strong>handleOrderBy.</strong>
+</p>
+
+## Dentro do arquivo Grid
+
+<img src="./img/grid-fucn.jpg">
+
+<p>
+  O estado <strong>activeArrow</strong> serve para colocar as cores nas setas
+  quando as mesmas estiveram ativas.
+</p>
+<img src="./img/grid.jpg">
+
+<p>
+ Caso orderby seja true , ele coloca as setas e todas funçãoes.
+ <br/>
+ no ato no onClick enviamos o direction e o label.
+</p>
+
+<p>
+ Resumindo foi tudo isso que eu fiz!
+</p>
