@@ -60,6 +60,36 @@
  no ato no onClick enviamos o direction e o label.
 </p>
 
+
+## Como utilizo o OrderBy
+
+<img src="./img/fields.jpg">
+
+<p>
+ Nos parametros dos fields passamos o orderBy: true; dessa forma
+ ele já adiciona as setas.
+</p>
+
+## No BackEnd
+
+<img src="./img/ifs.jpg">
+<p>
+ Olha esses ifs, lindos!
+<br />
+ crie uma duas variaveis que tem o t_order e order
+ <br />
+ <strong>
+  t_order -> É a tabela que vai receber a ordenação;
+  <br />
+  order -> vai ser tipo de ordernação
+ </strong>
+</p>
+<p>
+ Depois que você fazer esses if, você pode passar no final na $query
+ o orderBy
+</p>
+<img src="./img/query.jpg">
+<p>->orderBy($t_order, $order)</p>
 <p>
  Resumindo foi tudo isso que eu fiz!
 </p>
